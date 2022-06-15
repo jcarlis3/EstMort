@@ -30,7 +30,7 @@ ui <- fluidPage(
     ,
     
     # Main panel for displaying outputs ----
-    mainPanel(
+    mainPanel(width=4,
       
       # Output: histogram and detection function ----
       plotOutput("likePlot"),
